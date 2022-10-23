@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+textarea {
+    background-color: #C8DBBE;
+    display: block;
+    margin: auto;
+}
+
+.text-area {
+    text-align: center;
+}
+
+.convert-button {
+    margin: 15px;
+}
