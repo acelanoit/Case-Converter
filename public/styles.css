@@ -9,6 +9,10 @@ textarea {
     margin: auto;
 }
 
+p {
+    text-align: center;
+}
+
 .text-area {
     text-align: center;
 }
