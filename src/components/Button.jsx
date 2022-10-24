@@ -1,8 +1,9 @@
 import React from "react";
 
 function Button(props) {
+
     return (
-        <button className="btn btn-outline-secondary convert-button">{props.buttonText}</button>
+        <button className="btn btn-outline-secondary convert-button" onClick={props.onClick} name={props.buttonText} >{props.buttonText}</button>
     );
 }
 
