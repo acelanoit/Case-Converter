@@ -42,7 +42,7 @@ function TextArea() {
 
     return (
         <div className="text-area">
-            <textarea cols={100} rows={20} placeholder="Type or paste your text here..." value={text} onChange={handleChange} ></textarea>
+            <textarea cols={100} rows={20} placeholder="Type or paste your text here..." value={text} onChange={handleChange} autoFocus></textarea>
             <Button buttonText="Sentence case" onClick={handleClick} />
             <Button buttonText="lower case" onClick={handleClick} />
             <Button buttonText="UPPER CASE" onClick={handleClick} />
