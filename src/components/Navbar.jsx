@@ -8,7 +8,6 @@ import {
 import About from "./About";
 import Header from "./Header";
 import TextArea from "./TextArea";
-import Time from "./Time";
 import Footer from "./Footer";
 
 function Navbar() {
@@ -32,8 +31,15 @@ function Navbar() {
                 </div>
             </nav>
             <Routes>
-                <Route path="/about" element={<><Footer /><Time /></>} />
-                <Route path="/" element={<Header />} />
+                <Route path="/about" element={<>
+                    <About />
+                    <Footer />
+                </>} />
+                <Route path="/" element={<>
+                    <Header />
+                    <TextArea />
+                    <Footer />
+                </>} />
             </Routes>
         </Router>
     );
