@@ -1,6 +1,9 @@
-h1 {
+body {
     text-align: center;
-    margin-bottom: 30px;
+}
+
+h1 {
+    margin: 10px auto 30px;
 }
 
 textarea {
@@ -9,22 +12,42 @@ textarea {
     margin: auto;
 }
 
-p {
-    text-align: center;
+.time {
+    background-color: #FFF;
+    border: 5px solid #9BA17B;
+    margin: auto;
+    padding: 5px 10px;
+    position: absolute;
+    width: fit-content;
 }
 
-.text-area {
-    text-align: center;
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+.navbar-button {
+    margin: 5px;
 }
 
 .convert-button {
     margin: 15px;
 }
 
-.time {
-    border: 5px solid gray;
-    margin: auto;
-    padding: 5px 10px;
-    text-align: center;
-    width: fit-content;
+.about {
+    margin: auto 5%;
 }
