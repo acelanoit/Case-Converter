@@ -20,3 +20,11 @@ p {
 .convert-button {
     margin: 15px;
 }
+
+.time {
+    border: 5px solid gray;
+    margin: auto;
+    padding: 5px 10px;
+    text-align: center;
+    width: fit-content;
+}
