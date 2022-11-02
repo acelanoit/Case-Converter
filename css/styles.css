@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    margin: 10px auto 30px;
+}
+
+textarea {
+    background-color: #C8DBBE;
+    display: block;
+    margin: auto;
+}
+
+.time {
+    background-color: #FFF;
+    border: 5px solid #9BA17B;
+    margin: auto;
+    padding: 5px 10px;
+    position: absolute;
+    width: fit-content;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+.navbar-button {
+    margin: 5px;
+}
+
+.convert-button {
+    margin: 15px;
+}
+
+.about {
+    margin: auto 5%;
+}
