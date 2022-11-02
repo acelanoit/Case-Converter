@@ -15,14 +15,14 @@ function Navbar() {
     return (
         <div>
             <Router>
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
                     <div className="container-fluid">
-                        <Time />
-                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                            <Time />
+                        <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
                         </button>
 
-                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                             <ul className="navbar-nav ms-auto">
                                 <li className="nav-item ms-auto">
                                     <button className="btn btn-light btn-lg navbar-button"><Link to="/">Home</Link></button>
