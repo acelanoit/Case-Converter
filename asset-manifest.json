@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Case-Converter/static/js/main.22b4257d.js",
+    "main.js": "/Case-Converter/static/js/main.ae067e2d.js",
     "index.html": "/Case-Converter/index.html",
-    "main.22b4257d.js.map": "/Case-Converter/static/js/main.22b4257d.js.map"
+    "main.ae067e2d.js.map": "/Case-Converter/static/js/main.ae067e2d.js.map"
   },
   "entrypoints": [
-    "static/js/main.22b4257d.js"
+    "static/js/main.ae067e2d.js"
   ]
 }
