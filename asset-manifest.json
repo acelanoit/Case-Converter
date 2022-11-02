@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/Case-Converter/static/js/main.ae067e2d.js",
-    "index.html": "/Case-Converter/index.html",
-    "main.ae067e2d.js.map": "/Case-Converter/static/js/main.ae067e2d.js.map"
+    "main.js": "/case-converter/static/js/main.ae067e2d.js",
+    "index.html": "/case-converter/index.html",
+    "main.ae067e2d.js.map": "/case-converter/static/js/main.ae067e2d.js.map"
   },
   "entrypoints": [
     "static/js/main.ae067e2d.js"
