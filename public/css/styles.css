@@ -10,6 +10,7 @@ textarea {
     background-color: #C8DBBE;
     display: block;
     margin: auto;
+    max-width: 80%;
 }
 
 .time {
