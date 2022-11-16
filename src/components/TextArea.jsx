@@ -43,10 +43,21 @@ function TextArea() {
     return (
         <div>
             <textarea cols={100} rows={15} placeholder="Type or paste your text here..." value={text} onChange={handleChange} autoFocus></textarea>
-            <Button buttonText="Sentence case" onClick={handleClick} />
-            <Button buttonText="lower case" onClick={handleClick} />
-            <Button buttonText="UPPER CASE" onClick={handleClick} />
-            <Button buttonText="Capitalized Case" onClick={handleClick} />
+
+            <div className="row buttons">
+                <div className="col-lg-3 col-md-6 col-sm-12">
+                    <Button buttonText="Sentence case" onClick={handleClick} />
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-12">
+                    <Button buttonText="lower case" onClick={handleClick} />
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-12">
+                    <Button buttonText="UPPER CASE" onClick={handleClick} />
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-12">
+                    <Button buttonText="Capitalized Case" onClick={handleClick} />
+                </div>
+            </div>
         </div>
     );
 }

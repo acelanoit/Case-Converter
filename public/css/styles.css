@@ -45,6 +45,19 @@ a:active {
     margin: 5px;
 }
 
+@media (min-width: 769px) {
+    .navbar-button {
+        padding: 0.5rem 1rem;
+        font-size: 1.25rem;
+        border-radius: 0.3rem;
+    }
+}
+
+.buttons {
+    margin: auto;
+    max-width: 60%;
+}
+
 .convert-button {
     margin: 15px;
 }

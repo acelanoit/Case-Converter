@@ -23,12 +23,12 @@ function Navbar() {
                         </button>
 
                         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                            <ul className="navbar-nav ms-auto">
+                            <ul className="navbar-nav ms-auto mt-2 mt-lg-0">
                                 <li className="nav-item ms-auto">
-                                    <button className="btn btn-light btn-lg navbar-button"><Link to="/">Home</Link></button>
+                                    <button className="btn btn-light btn-sm navbar-button"><Link to="/">Home</Link></button>
                                 </li>
                                 <li className="nav-item ms-auto">
-                                    <button className="btn btn-light btn-lg navbar-button"><Link to="/about">About</Link></button>
+                                    <button className="btn btn-light btn-sm navbar-button"><Link to="/about">About</Link></button>
                                 </li>
                             </ul>
                         </div>
